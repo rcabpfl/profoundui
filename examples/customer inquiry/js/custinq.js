@@ -9,7 +9,7 @@ var data = {};
 
 function customerInquiry() {
   pui.show({
-    path: "../custInq.json",
+    path: "../custinq.json",
     data: data,
     handler: function(response) {
       pui.applyResponse(data, response);
